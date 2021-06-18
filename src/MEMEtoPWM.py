@@ -18,9 +18,6 @@ def MEMEtoPWM():
 
     args = parser.parse_args()
     
-    motifs = {}
-    #key = motif name
-    #value = motif as numpy array
     motif = None
     motif_found = False
     with open(args.MEME,'rt') as infile:
